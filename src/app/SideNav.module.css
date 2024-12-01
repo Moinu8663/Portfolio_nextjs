@@ -1,0 +1,45 @@
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+    transition: 0.3s;
+  }
+  
+  .sidenav.closed {
+    transform: translateX(-250px);
+  }
+  
+  .sidenav.open {
+    transform: translateX(0);
+  }
+  
+  .sidenav h2 {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidenav ul li {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .sidenav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .sidenav ul li a:hover {
+    background-color: #575757;
+  }
+  
